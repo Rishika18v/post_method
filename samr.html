@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>signup</title>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family: Times New Roman;
+              color: white;
+            }
+            
+            
+            .header {
+              background-color:black;
+              padding: 20px;
+              text-align: center;
+              color: white;
+            }
+            
+            
+            .column {
+              float: left;
+              padding: 10px;
+              height: 300px; 
+            }
+            
+            
+            .column.side {
+              width: 20%;
+            }
+            
+            
+            .column.middle {
+              width: 60%;
+            }
+            
+            
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            
+            .footer {
+              background-color: black;
+              padding: 35px;
+              text-align: center;
+            }
+            
+            {
+              .column.side, .column.middle {
+                width: 100%;
+              }
+            }
+            .p1{
+              width:50%;
+              padding:8px 30px;
+              margin:auto;
+              background:#8700CA;
+              border:0;
+              outline:none;
+              border-radius:30px;
+              }
+            </style>
+            </head>
+            <body>
+            
+            <div class="header">
+              <h2>SIGN UP!!!</h2>
+              <p>"Change your language and you change your thoughts”</p>
+            </div>
+            
+            <div class="row">
+              <div class="column side" style="background-color:black;"></div>
+              <div class="column middle" style="background:linear-gradient(#8700CA,#000000);"><br><br>
+              <center>
+
+        <form action="http://localhost:7777/login" method="post">
+           name: <input type="text" name="username" placeholder="Enter name" value=""/><br><br><br>
+           email: <input type="text" name="email" placeholder="Enter email" value=""/><br><br><br>
+           pass: <input type="password" placeholder="Enter password"  size="20" required><br><br><br>
+            <input type="submit" name="login" value="Login"/>
+        </form>
+    </center>
+</div>
+<div class="column side" style="background-color:black;"></div>
+</div>
+
+<div class="footer">
+<p><b>WELCOME TO SIGN IN PAGE!!!</b></p>
+</div>
+
+    </body>
+</html>
+
